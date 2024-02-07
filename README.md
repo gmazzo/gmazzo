@@ -53,6 +53,6 @@
   ```
   
 - [`gradle-report-publications-plugin`](https://github.com/gmazzo/gradle-report-publications-plugin)<br/>
-  A Gradle plugin that decorates the build logs with maven coordinates of artifacts published with `publish` or `publishToMavenLocal`
+  A Gradle plugin that decorates the build logs with maven coordinates of artifacts published with `publish` or `publishToMavenLocal`<br/>
   ![publications](https://github.com/gmazzo/gradle-report-publications-plugin/raw/main/README-example-output.png)
   
