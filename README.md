@@ -13,6 +13,7 @@
     respond("{succeed:true}", MEDIATYPE_JSON)
   }
   ```
+  ![stars](https://img.shields.io/github/stars/gmazzo/okhttp-client-mock)
 
 ### Gradle plugins
 - [`gradle-buildconfig-plugin`](https://github.com/gmazzo/gradle-buildconfig-plugin)<br/>
@@ -22,16 +23,19 @@
     buildConfigField("APP_NAME", project.name)
     buildConfigField("APP_VERSION", provider { "${project.version}" })
   ```
+  ![stars](https://img.shields.io/github/stars/gmazzo/gradle-buildconfig-plugin)
   
 - [`gradle-android-test-aggregation-plugin`](https://github.com/gmazzo/gradle-android-test-aggregation-plugin)<br/>
   A couple Gradle plugins to make Android modules to work with [JaCoCo Report Aggregation Plugin](https://docs.gradle.org/current/userguide/jacoco_report_aggregation_plugin.html) and [Test Report Aggregation Plugin](https://docs.gradle.org/current/userguide/test_report_aggregation_plugin.html)<br/>
-  ![aggregated-jacoco-report](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/raw/main/README-aggregated-jacoco-report.png)
+  ![aggregated-jacoco-report](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/raw/main/README-aggregated-jacoco-report.png)<br/>
+  ![stars](https://img.shields.io/github/stars/gmazzo/gradle-android-test-aggregation-plugin)
 
 - [`gradle-codeowners-plugin`](https://github.com/gmazzo/gradle-codeowners-plugin)<br/>
   A set of Gradle plugins to propagate CODEOWNERS of classes to runtime for JVM and Kotlin Multiplatform.
   ```kotlin
   val ownersOfFoo = codeOwnersOf<Foo>()
   ```
+  ![stars](https://img.shields.io/github/stars/gmazzo/gradle-codeowners-plugin)
   
 - [`gradle-android-manifest-lock-plugin`](https://github.com/gmazzo/gradle-android-manifest-lock-plugin)<br/>
   A Gradle plugin for providing .lock file support for AndroidManifest. Useful to control what's introduced by 3rd party dependencies into your Manifest.
@@ -44,6 +48,7 @@
       - android.permission.ACCESS_NETWORK_STATE
       - android.permission.FOREGROUND_SERVICE
   ```
+  ![stars](https://img.shields.io/github/stars/gmazzo/gradle-android-manifest-lock-plugin)
   
 - [`gradle-docker-compose-plugin`](https://github.com/gmazzo/gradle-docker-compose-plugin)<br/>
   Spawns Docker Compose environments for Test tasks as a Gradle's `Shared Build Service`.
@@ -51,8 +56,10 @@
   @Value("\${container.main-app.host}:\${container.main-app.tcp80}")
   private lateinit var appEndpoint: String
   ```
+  ![stars](https://img.shields.io/github/stars/gmazzo/gradle-docker-compose-plugin)
   
 - [`gradle-report-publications-plugin`](https://github.com/gmazzo/gradle-report-publications-plugin)<br/>
   A Gradle plugin that decorates the build logs with maven coordinates of artifacts published with `publish` or `publishToMavenLocal`<br/>
-  ![publications](https://github.com/gmazzo/gradle-report-publications-plugin/raw/main/README-example-output.png)
+  ![publications](https://github.com/gmazzo/gradle-report-publications-plugin/raw/main/README-example-output.png)<br/>
+  ![stars](https://img.shields.io/github/stars/gmazzo/gradle-report-publications-plugin)
   
