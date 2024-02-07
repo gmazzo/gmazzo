@@ -14,6 +14,7 @@
   }
   ```
   [![Stars](https://img.shields.io/github/stars/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/issues)
   [![PRs](https://img.shields.io/github/issues-pr/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/pulls)
   [![Maven Central](https://img.shields.io/maven-central/v/com.github.gmazzo.okhttp.mock/mock-client)](https://central.sonatype.com/artifact/com.github.gmazzo.okhttp.mock/mock-client)
@@ -30,6 +31,7 @@
     buildConfigField("APP_VERSION", provider { "${project.version}" })
   ```
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-buildconfig-plugin)](https://github.com/gmazzo/gradle-buildconfig-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-buildconfig-plugin)](https://github.com/gmazzo/gradle-buildconfig-plugin/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-buildconfig-plugin)](https://github.com/gmazzo/gradle-buildconfig-plugin/issues)
   [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-buildconfig-plugin)](https://github.com/gmazzo/gradle-buildconfig-plugin/pulls)
   ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-buildconfig-plugin)
@@ -42,6 +44,7 @@
   A couple Gradle plugins to make Android modules to work with [JaCoCo Report Aggregation Plugin](https://docs.gradle.org/current/userguide/jacoco_report_aggregation_plugin.html) and [Test Report Aggregation Plugin](https://docs.gradle.org/current/userguide/test_report_aggregation_plugin.html)<br/>
   ![aggregated-jacoco-report](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/raw/main/README-aggregated-jacoco-report.png)<br/>
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/issues)
   [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/pulls)
   ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-android-test-aggregation-plugin)
@@ -57,6 +60,7 @@
   ```
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-codeowners-plugin)](https://github.com/gmazzo/gradle-codeowners-plugin/stargazers)
   [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-codeowners-plugin)](https://github.com/gmazzo/gradle-codeowners-plugin/issues)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-codeowners-plugin)](https://github.com/gmazzo/gradle-codeowners-plugin/forks)
   [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-codeowners-plugin)](https://github.com/gmazzo/gradle-codeowners-plugin/pulls)
   ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-codeowners-plugin)
   [![Maven Central](https://img.shields.io/maven-central/v/io.github.gmazzo.codeowners/matcher)](https://central.sonatype.com/artifact/io.github.gmazzo.codeowners/matcher)
@@ -77,6 +81,7 @@
       - android.permission.FOREGROUND_SERVICE
   ```
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-android-manifest-lock-plugin)](https://github.com/gmazzo/gradle-android-manifest-lock-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-android-manifest-lock-plugin)](https://github.com/gmazzo/gradle-android-manifest-lock-plugin/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-android-manifest-lock-plugin)](https://github.com/gmazzo/gradle-android-manifest-lock-plugin/issues)
   [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-android-manifest-lock-plugin)](https://github.com/gmazzo/gradle-android-manifest-lock-plugin/pulls)
   ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-android-manifest-lock-plugin)
@@ -92,6 +97,7 @@
   private lateinit var appEndpoint: String
   ```
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-docker-compose-plugin)](https://github.com/gmazzo/gradle-docker-compose-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-docker-compose-plugin)](https://github.com/gmazzo/gradle-docker-compose-plugin/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-docker-compose-plugin)](https://github.com/gmazzo/gradle-docker-compose-plugin/issues)
   [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-docker-compose-plugin)](https://github.com/gmazzo/gradle-docker-compose-plugin/pulls)
   ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-docker-compose-plugin)
@@ -104,6 +110,7 @@
   A Gradle plugin that decorates the build logs with maven coordinates of artifacts published with `publish` or `publishToMavenLocal`<br/>
   ![publications](https://github.com/gmazzo/gradle-report-publications-plugin/raw/main/README-example-output.png)<br/>
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-report-publications-plugin)](https://github.com/gmazzo/gradle-report-publications-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-report-publications-plugin)](https://github.com/gmazzo/gradle-report-publications-plugin/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-report-publications-plugin)](https://github.com/gmazzo/gradle-report-publications-plugin/issues)
   [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-report-publications-plugin)](https://github.com/gmazzo/gradle-report-publications-plugin/pulls)
   ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-report-publications-plugin)
