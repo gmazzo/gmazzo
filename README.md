@@ -3,6 +3,25 @@
 
 ## Portfolio of open source projects
 
+### GitHub Actions
+- [`publish-report-annotations`](https://github.com/gmazzo/publish-report-annotations)
+  Reports `JUnit`, `Android Lint`, `Detekt` and any other `CheckStyle` compatible `XML` reports as GitHub Actions annotations. Mostly targeting `Gradle` builds
+  ```yaml
+  steps:
+    - name: Run Gradle build
+      run: ./gradlew build # this is an example
+    - name: Report build results
+      uses: gmazzo/publish-report-annotations@v1 # target latest version
+  ```
+  [![Stars](https://img.shields.io/github/stars/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/pulls)
+  [![Latest](https://img.shields.io/github/v/release/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/releases/latest)
+  [![Build Status](https://github.com/gmazzo/publish-report-annotations/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/publish-report-annotations/actions/workflows/build.yaml)
+  [![codecov](https://codecov.io/gh/gmazzo/publish-report-annotations/branch/master/graph/badge.svg)](https://codecov.io/gh/gmazzo/publish-report-annotations)
+  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:gmazzo/publish-report-annotations%40+-repo:github.com/gmazzo/publish-report-annotations)
+
 ### JVM libraries
 - [`okhttp-client-mock`](https://github.com/gmazzo/okhttp-client-mock)<br/>
   A simple `OKHttp` client mock, using a programmable request interceptor
