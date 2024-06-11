@@ -144,7 +144,23 @@
     - name: Report build results
       uses: gmazzo/publish-report-annotations@v1 # target latest version
   ```
-  ![image](https://github.com/gmazzo/publish-report-annotations/assets/513566/63fd2a86-2585-4c49-bb79-9b9dc88007fd)
+  ![PR status check](https://github.com/gmazzo/publish-report-annotations/assets/513566/434289a0-6d4d-4226-ad4c-49554080df80)
+
+  | Tests                              | ✅ 5 passed | 🟡 1 skipped | ❌ 2 failed | ⌛ took |
+  |:-----------------------------------|------------|--------------|------------|--------|
+  | ✅ org.test.sample.AnotherTestSuite | 4          | 0            | 0          | 0.578s |
+  | ❌ org.test.sample.SampleTestSuite  | 1          | 1            | 2          | 0.002s |
+  
+  | detekt             | 🛑 0 errors | ⚠️ 1 warning | 💡 0 others |
+  |:-------------------|-------------|--------------|-------------|
+  | NewLineAtEndOfFile | 0           | 1            | 0           |
+  
+  | Android Lint                   | 🛑 0 errors | ⚠️ 1 warning | 💡 0 others |
+  |:-------------------------------|-------------|--------------|-------------|
+  | Correctness / GradleDependency | 0           | 1            | 0           |
+
+  ![junit](https://github.com/gmazzo/publish-report-annotations/assets/513566/57ba4328-0318-48b5-9d91-22113c4387bb)
+
   [![Stars](https://img.shields.io/github/stars/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/stargazers)
   [![Forks](https://img.shields.io/github/forks/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/issues)
