@@ -151,15 +151,12 @@
   | ✅ org.test.sample.AnotherTestSuite | 4          | 0            | 0          | 0.578s |
   | ❌ org.test.sample.SampleTestSuite  | 1          | 1            | 2          | 0.002s |
   
-  | detekt             | 🛑 0 errors | ⚠️ 1 warning | 💡 0 others |
-  |:-------------------|-------------|--------------|-------------|
-  | NewLineAtEndOfFile | 0           | 1            | 0           |
-  
   | Android Lint                   | 🛑 0 errors | ⚠️ 1 warning | 💡 0 others |
   |:-------------------------------|-------------|--------------|-------------|
   | Correctness / GradleDependency | 0           | 1            | 0           |
 
   ![junit](https://github.com/gmazzo/publish-report-annotations/assets/513566/57ba4328-0318-48b5-9d91-22113c4387bb)
+  ![lint](https://github.com/gmazzo/gmazzo/assets/513566/23ddef4c-186c-444f-8355-c599b3645630)
 
   [![Stars](https://img.shields.io/github/stars/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/stargazers)
   [![Forks](https://img.shields.io/github/forks/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/forks)
