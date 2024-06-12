@@ -142,7 +142,8 @@
     - name: Run Gradle build
       run: ./gradlew build # this is an example
     - name: Report build results
-      uses: gmazzo/publish-report-annotations@v1 # target latest version
+      uses: gmazzo/publish-report-annotations@v1 # target latest major
+      if: ${{ !cancelled() }}
   ```
   ![PR status check](https://github.com/gmazzo/publish-report-annotations/assets/513566/434289a0-6d4d-4226-ad4c-49554080df80)
 
