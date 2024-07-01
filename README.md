@@ -4,15 +4,10 @@
 ## Open Source projects
 
 ### JVM libraries
-- [`okhttp-client-mock`](https://github.com/gmazzo/okhttp-client-mock)<br/>
+- [`okhttp-client-mock`](https://github.com/gmazzo/okhttp-client-mock)
+
   A simple `OKHttp` client mock, using a programmable request interceptor
-  ```kotlin
-  val interceptor = MockInterceptor()
-  
-  interceptor.rule(url eq "https://testserver/api/json") {
-    respond("{succeed:true}", MEDIATYPE_JSON)
-  }
-  ```
+
   [![Stars](https://img.shields.io/github/stars/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/stargazers)
   [![Forks](https://img.shields.io/github/forks/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/issues)
@@ -24,14 +19,19 @@
 
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/graphs/contributors)
 
-### Gradle plugins
-- [`gradle-buildconfig-plugin`](https://github.com/gmazzo/gradle-buildconfig-plugin)<br/>
-  A plugin for generating BuildConstants for any kind of Gradle projects: Java, Kotlin, Groovy, etc. Designed for KTS scripts.<br/>
   ```kotlin
-  buildConfig {
-    buildConfigField("APP_NAME", project.name)
-    buildConfigField("APP_VERSION", provider { "${project.version}" })
+  val interceptor = MockInterceptor()
+  
+  interceptor.rule(url eq "https://testserver/api/json") {
+    respond("{succeed:true}", MEDIATYPE_JSON)
+  }
   ```
+
+### Gradle plugins
+- [`gradle-buildconfig-plugin`](https://github.com/gmazzo/gradle-buildconfig-plugin)
+
+  A plugin for generating BuildConstants for any kind of Gradle projects: Java, Kotlin, Groovy, etc. Designed for KTS scripts.
+
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-buildconfig-plugin)](https://github.com/gmazzo/gradle-buildconfig-plugin/stargazers)
   [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-buildconfig-plugin)](https://github.com/gmazzo/gradle-buildconfig-plugin/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-buildconfig-plugin)](https://github.com/gmazzo/gradle-buildconfig-plugin/issues)
@@ -43,10 +43,17 @@
   [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:com.github.gmazzo.buildconfig+-repo:github.com/gmazzo/gradle-buildconfig-plugin)
 
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-buildconfig-plugin)](https://github.com/gmazzo/gradle-buildconfig-plugin/graphs/contributors)
+
+  ```kotlin
+  buildConfig {
+    buildConfigField("APP_NAME", project.name)
+    buildConfigField("APP_VERSION", provider { "${project.version}" })
+  ```
   
-- [`gradle-android-test-aggregation-plugin`](https://github.com/gmazzo/gradle-android-test-aggregation-plugin)<br/>
-  A couple Gradle plugins to make Android modules to work with [JaCoCo Report Aggregation Plugin](https://docs.gradle.org/current/userguide/jacoco_report_aggregation_plugin.html) and [Test Report Aggregation Plugin](https://docs.gradle.org/current/userguide/test_report_aggregation_plugin.html)<br/>
-  ![aggregated-jacoco-report](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/raw/main/README-aggregated-jacoco-report.png)<br/>
+- [`gradle-android-test-aggregation-plugin`](https://github.com/gmazzo/gradle-android-test-aggregation-plugin)
+
+  A couple Gradle plugins to make Android modules to work with [JaCoCo Report Aggregation Plugin](https://docs.gradle.org/current/userguide/jacoco_report_aggregation_plugin.html) and [Test Report Aggregation Plugin](https://docs.gradle.org/current/userguide/test_report_aggregation_plugin.html)
+
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/stargazers)
   [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/issues)
@@ -59,11 +66,12 @@
   
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/graphs/contributors)
 
-- [`gradle-codeowners-plugin`](https://github.com/gmazzo/gradle-codeowners-plugin)<br/>
+  ![aggregated-jacoco-report](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/raw/main/README-aggregated-jacoco-report.png)
+
+- [`gradle-codeowners-plugin`](https://github.com/gmazzo/gradle-codeowners-plugin)
+
   A set of Gradle plugins to propagate CODEOWNERS of classes to runtime for JVM and Kotlin Multiplatform.
-  ```kotlin
-  val ownersOfFoo = codeOwnersOf<Foo>()
-  ```
+
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-codeowners-plugin)](https://github.com/gmazzo/gradle-codeowners-plugin/stargazers)
   [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-codeowners-plugin)](https://github.com/gmazzo/gradle-codeowners-plugin/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-codeowners-plugin)](https://github.com/gmazzo/gradle-codeowners-plugin/issues)
@@ -77,17 +85,14 @@
    
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-codeowners-plugin)](https://github.com/gmazzo/gradle-codeowners-plugin/graphs/contributors)
 
-- [`gradle-android-manifest-lock-plugin`](https://github.com/gmazzo/gradle-android-manifest-lock-plugin)<br/>
-  A Gradle plugin for providing .lock file support for AndroidManifest. Useful to control what's introduced by 3rd party dependencies into your Manifest.
-  ```yaml
-  main:
-    namespace: io.github.gmazzo.android.manifest.lock.demo
-    minSDK: 24
-    targetSDK: 34
-    permissions:
-      - android.permission.ACCESS_NETWORK_STATE
-      - android.permission.FOREGROUND_SERVICE
+  ```kotlin
+  val ownersOfFoo = codeOwnersOf<Foo>()
   ```
+
+- [`gradle-android-manifest-lock-plugin`](https://github.com/gmazzo/gradle-android-manifest-lock-plugin)
+
+  A Gradle plugin for providing .lock file support for AndroidManifest. Useful to control what's introduced by 3rd party dependencies into your Manifest.
+
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-android-manifest-lock-plugin)](https://github.com/gmazzo/gradle-android-manifest-lock-plugin/stargazers)
   [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-android-manifest-lock-plugin)](https://github.com/gmazzo/gradle-android-manifest-lock-plugin/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-android-manifest-lock-plugin)](https://github.com/gmazzo/gradle-android-manifest-lock-plugin/issues)
@@ -100,12 +105,20 @@
   
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-android-manifest-lock-plugin)](https://github.com/gmazzo/gradle-android-manifest-lock-plugin/graphs/contributors)
 
-- [`gradle-docker-compose-plugin`](https://github.com/gmazzo/gradle-docker-compose-plugin)<br/>
-  Spawns Docker Compose environments for Test tasks as a Gradle's `Shared Build Service`.
-  ```kotlin
-  @Value("\${container.main-app.host}:\${container.main-app.tcp80}")
-  private lateinit var appEndpoint: String
+  ```yaml
+  main:
+    namespace: io.github.gmazzo.android.manifest.lock.demo
+    minSDK: 24
+    targetSDK: 34
+    permissions:
+      - android.permission.ACCESS_NETWORK_STATE
+      - android.permission.FOREGROUND_SERVICE
   ```
+
+- [`gradle-docker-compose-plugin`](https://github.com/gmazzo/gradle-docker-compose-plugin)
+
+  Spawns Docker Compose environments for Test tasks as a Gradle's `Shared Build Service`.
+
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-docker-compose-plugin)](https://github.com/gmazzo/gradle-docker-compose-plugin/stargazers)
   [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-docker-compose-plugin)](https://github.com/gmazzo/gradle-docker-compose-plugin/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-docker-compose-plugin)](https://github.com/gmazzo/gradle-docker-compose-plugin/issues)
@@ -118,9 +131,15 @@
   
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-docker-compose-plugin)](https://github.com/gmazzo/gradle-docker-compose-plugin/graphs/contributors)
 
-- [`gradle-report-publications-plugin`](https://github.com/gmazzo/gradle-report-publications-plugin)<br/>
-  A Gradle plugin that decorates the build logs with maven coordinates of artifacts published with `publish` or `publishToMavenLocal`<br/>
-  ![publications](https://github.com/gmazzo/gradle-report-publications-plugin/raw/main/README-example-output.png)<br/>
+  ```kotlin
+  @Value("\${container.main-app.host}:\${container.main-app.tcp80}")
+  private lateinit var appEndpoint: String
+  ```
+
+- [`gradle-report-publications-plugin`](https://github.com/gmazzo/gradle-report-publications-plugin)
+
+  A Gradle plugin that decorates the build logs with maven coordinates of artifacts published with `publish` or `publishToMavenLocal`
+
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-report-publications-plugin)](https://github.com/gmazzo/gradle-report-publications-plugin/stargazers)
   [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-report-publications-plugin)](https://github.com/gmazzo/gradle-report-publications-plugin/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-report-publications-plugin)](https://github.com/gmazzo/gradle-report-publications-plugin/issues)
@@ -133,10 +152,25 @@
   
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-report-publications-plugin)](https://github.com/gmazzo/gradle-report-publications-plugin/graphs/contributors)
 
+  ![publications](https://github.com/gmazzo/gradle-report-publications-plugin/raw/main/README-example-output.png)
+
 
 ### GitHub Actions
 - [`publish-report-annotations`](https://github.com/gmazzo/publish-report-annotations)
+
   Reports `JUnit`, `Android Lint`, `Detekt` and any other `CheckStyle` compatible `XML` reports as GitHub Actions annotations. Mostly targeting `Gradle` builds
+
+  [![Stars](https://img.shields.io/github/stars/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/pulls)
+  [![Latest](https://img.shields.io/github/v/release/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/releases/latest)
+  [![Build Status](https://github.com/gmazzo/publish-report-annotations/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/publish-report-annotations/actions/workflows/build.yaml)
+  [![codecov](https://codecov.io/gh/gmazzo/publish-report-annotations/branch/main/graph/badge.svg)](https://codecov.io/gh/gmazzo/publish-report-annotations)
+  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:gmazzo/publish-report-annotations%40+-repo:github.com/gmazzo/publish-report-annotations)
+
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/graphs/contributors)
+
   ```yaml
   steps:
     - name: Run Gradle build
@@ -158,14 +192,3 @@
 
   ![junit](https://github.com/gmazzo/publish-report-annotations/assets/513566/57ba4328-0318-48b5-9d91-22113c4387bb)
   ![lint](https://github.com/gmazzo/gmazzo/assets/513566/23ddef4c-186c-444f-8355-c599b3645630)
-
-  [![Stars](https://img.shields.io/github/stars/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/stargazers)
-  [![Forks](https://img.shields.io/github/forks/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/forks)
-  [![Issues](https://img.shields.io/github/issues/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/issues)
-  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/pulls)
-  [![Latest](https://img.shields.io/github/v/release/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/releases/latest)
-  [![Build Status](https://github.com/gmazzo/publish-report-annotations/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/publish-report-annotations/actions/workflows/build.yaml)
-  [![codecov](https://codecov.io/gh/gmazzo/publish-report-annotations/branch/main/graph/badge.svg)](https://codecov.io/gh/gmazzo/publish-report-annotations)
-  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:gmazzo/publish-report-annotations%40+-repo:github.com/gmazzo/publish-report-annotations)
-
-  [![Contributors](https://contrib.rocks/image?repo=gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/graphs/contributors)
