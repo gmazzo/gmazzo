@@ -169,6 +169,10 @@
 
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/graphs/contributors)
 
+  ```bash
+  docker run -v ./scripts:/scripts gmazzo/kotlin /scripts/hello.kts
+  ```
+
 ### GitHub Actions
 - [`publish-report-annotations`](https://github.com/gmazzo/publish-report-annotations)
 
