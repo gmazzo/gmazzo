@@ -154,6 +154,20 @@
 
   ![publications](https://github.com/gmazzo/gradle-report-publications-plugin/raw/main/README-example-output.png)
 
+### Docker images
+- [`kotlin-container`](https://github.com/gmazzo/kotlin-container)
+
+  An unofficial Docker image for running Kotlin scripts.
+  
+  [![Stars](https://img.shields.io/github/stars/gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/pulls)
+  [![Latest](https://img.shields.io/docker/image-size/gmazzo/kotlin)](https://hub.docker.com/repository/docker/gmazzo/kotlin/general)
+  [![Build Status](https://github.com/gmazzo/kotlin-container/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/kotlin-container/actions/workflows/build.yaml)
+  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:gmazzo/kotlin-container%40+-repo:github.com/gmazzo/kotlin-container)
+
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/graphs/contributors)
 
 ### GitHub Actions
 - [`publish-report-annotations`](https://github.com/gmazzo/publish-report-annotations)
