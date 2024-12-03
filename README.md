@@ -68,6 +68,34 @@
 
   ![aggregated-jacoco-report](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/raw/main/README-aggregated-jacoco-report.png)
 
+  
+- [`gradle-aar2jar-plugin`](https://github.com/gmazzo/gradle-aar2jar-plugin)
+
+  A Gradle plugin to allow consuming Android's AAR dependencies as JAR dependencies for JVM projects.
+
+  [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-aar2jar-plugin)](https://github.com/gmazzo/gradle-aar2jar-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-aar2jar-plugin)](https://github.com/gmazzo/gradle-aar2jar-plugin/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-aar2jar-plugin)](https://github.com/gmazzo/gradle-aar2jar-plugin/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-aar2jar-plugin)](https://github.com/gmazzo/gradle-aar2jar-plugin/pulls)
+  ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-aar2jar-plugin)
+  [![Gradle Plugin Portal](https://img.shields.io/gradle-plugin-portal/v/io.github.gmazzo.aar2jar)](https://plugins.gradle.org/plugin/io.github.gmazzo.aar2jar)
+  [![Build Status](https://github.com/gmazzo/gradle-aar2jar-plugin/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/gradle-aar2jar-plugin/actions/workflows/build.yaml)
+  [![Coverage](https://codecov.io/gh/gmazzo/gradle-aar2jar-plugin/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/gradle-aar2jar-plugin)
+  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:io.github.gmazzo.aar2jar+-repo:github.com/gmazzo/gradle-aar2jar-plugin)
+  
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-aar2jar-plugin)](https://github.com/gmazzo/gradle-aar2jar-plugin/graphs/contributors)
+
+  ```kotlin
+  plugins {
+    java
+    id("io.github.gmazzo.aar2jar") version "<latest>" 
+  }
+
+  dependencies {
+    implementation("androidx.fragment:fragment:1.8.5")
+  }
+  ```
+
 - [`gradle-codeowners-plugin`](https://github.com/gmazzo/gradle-codeowners-plugin)
 
   A set of Gradle plugins to propagate CODEOWNERS of classes to runtime for JVM and Kotlin Multiplatform.
