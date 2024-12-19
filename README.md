@@ -164,6 +164,31 @@
   private lateinit var appEndpoint: String
   ```
 
+- [`gradle-import-classes-plugin`](https://github.com/gmazzo/gradle-import-classes-plugin)
+
+  A Gradle plugin to import and repackage dependencies [`Proguard`](https://www.guardsquare.com/manual/home) tool.
+
+  [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-import-classes-plugin)](https://github.com/gmazzo/gradle-import-classes-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-import-classes-plugin)](https://github.com/gmazzo/gradle-import-classes-plugin/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-import-classes-plugin)](https://github.com/gmazzo/gradle-import-classes-plugin/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-import-classes-plugin)](https://github.com/gmazzo/gradle-import-classes-plugin/pulls)
+  ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-import-classes-plugin)
+  [![Gradle Plugin Portal](https://img.shields.io/gradle-plugin-portal/v/io.github.gmazzo.importclasses)](https://plugins.gradle.org/plugin/io.github.gmazzo.importclasses)
+  [![Build Status](https://github.com/gmazzo/gradle-import-classes-plugin/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/gradle-import-classes-plugin/actions/workflows/build.yaml)
+  [![Coverage](https://codecov.io/gh/gmazzo/gradle-import-classes-plugin/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/gradle-import-classes-plugin)
+  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:io.github.gmazzo.importclasses+-repo:github.com/gmazzo/gradle-import-classes-plugin)
+  
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-import-classes-plugin)](https://github.com/gmazzo/gradle-import-classes-plugin/graphs/contributors)
+
+  ```kotlin
+  sourceSets.main {
+    importClasses("org.apache.commons:commons-lang3:3.14.0") {
+        repackageTo = "org.test.imported"
+        keep("org.apache.commons.lang3.StringUtils")
+    }
+  }
+  ```
+
 - [`gradle-report-publications-plugin`](https://github.com/gmazzo/gradle-report-publications-plugin)
 
   A Gradle plugin that decorates the build logs with maven coordinates of artifacts published with `publish` or `publishToMavenLocal`
