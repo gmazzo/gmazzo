@@ -166,7 +166,7 @@
 
 - [`gradle-embedded-dependencies-plugin`](https://github.com/gmazzo/gradle-embedded-dependencies-plugin)
 
-  A Gradle plugin to embed dependencies (A.K.A. `fat` or `uber` jar) in the resulting `jar` outcome.
+  A Gradle plugin to embed dependencies (A.K.A. `fat` or `uber` jar) in the produced `jar`.
 
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-embedded-dependencies-plugin)](https://github.com/gmazzo/gradle-embedded-dependencies-plugin/stargazers)
   [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-embedded-dependencies-plugin)](https://github.com/gmazzo/gradle-embedded-dependencies-plugin/forks)
