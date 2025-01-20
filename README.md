@@ -231,6 +231,37 @@
   }
   ```
 
+- [`gradle-module-kind-plugin`](https://github.com/gmazzo/gradle-module-kind-plugin)
+
+  A Gradle plugin to constrain a multi-module build dependency graph.
+
+  [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-module-kind-plugin)](https://github.com/gmazzo/gradle-module-kind-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-module-kind-plugin)](https://github.com/gmazzo/gradle-module-kind-plugin/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-module-kind-plugin)](https://github.com/gmazzo/gradle-module-kind-plugin/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-module-kind-plugin)](https://github.com/gmazzo/gradle-module-kind-plugin/pulls)
+  ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-module-kind-plugin)
+  [![Gradle Plugin Portal](https://img.shields.io/gradle-plugin-portal/v/io.github.gmazzo.modulekind)](https://plugins.gradle.org/plugin/io.github.gmazzo.modulekind)
+  [![Build Status](https://github.com/gmazzo/gradle-module-kind-plugin/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/gradle-module-kind-plugin/actions/workflows/build.yaml)
+  [![Coverage](https://codecov.io/gh/gmazzo/gradle-module-kind-plugin/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/gradle-module-kind-plugin)
+  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:io.github.gmazzo.modulekind+-repo:github.com/gmazzo/gradle-module-kind-plugin)
+  
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-module-kind-plugin)](https://github.com/gmazzo/gradle-module-kind-plugin/graphs/contributors)
+
+  ```kotlin
+  moduleKindConstraints {
+      "implementation" compatibleWith "api"
+      "monolith" compatibleWith "implementation"
+      "monolith" compatibleWith "api" // redundant, since compatibilities are transitive
+  }
+  ```
+  | `moduleKind`   | api | implementation | monolith |
+  | -------------- | --- | -------------- | -------- |
+  | api            | ❌   | ❌              | ❌        |
+  | implementation | ✅   | ❌              | ❌        |
+  | monolith       | ✅   | ✅              | ✅        |
+
+  ![README-failure.png](https://github.com/gmazzo/gradle-module-kind-plugin/raw/main/README-failure.png)
+
 - [`gradle-report-publications-plugin`](https://github.com/gmazzo/gradle-report-publications-plugin)
 
   A Gradle plugin that decorates the build logs with maven coordinates of artifacts published with `publish` or `publishToMavenLocal`
