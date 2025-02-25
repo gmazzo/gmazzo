@@ -209,11 +209,13 @@
 
   ```kotlin
   // build.gradle.kts
-  sourceSets.main {
-    importClasses("org.apache.commons:commons-lang3:3.14.0") {
-        repackageTo = "org.test.imported"
-        keep("org.apache.commons.lang3.StringUtils")
-    }
+  importClasses {
+    repackageTo = "org.test.imported"
+    keep("org.apache.commons.lang3.StringUtils")
+  }
+  
+  dependencies {
+    importClasses("org.apache.commons:commons-lang3:3.14.0")
   }
   ```
   ```java
