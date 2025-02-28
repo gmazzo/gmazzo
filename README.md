@@ -69,6 +69,29 @@
   ![aggregated-jacoco-report](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/raw/main/README-aggregated-jacoco-report.png)
 
   
+- [`gradle-testkit-jacoco-plugin`](https://github.com/gmazzo/gradle-testkit-jacoco-plugin)
+
+  A Gradle plugin that enables JaCoCo coverage collection for Gradle TestKit's GradleRunner tests.
+
+  [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-testkit-jacoco-plugin)](https://github.com/gmazzo/gradle-testkit-jacoco-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-testkit-jacoco-plugin)](https://github.com/gmazzo/gradle-testkit-jacoco-plugin/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-testkit-jacoco-plugin)](https://github.com/gmazzo/gradle-testkit-jacoco-plugin/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-testkit-jacoco-plugin)](https://github.com/gmazzo/gradle-testkit-jacoco-plugin/pulls)
+  ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-testkit-jacoco-plugin)
+  [![Gradle Plugin Portal](https://img.shields.io/gradle-plugin-portal/v/io.github.gmazzo.gradle.testkit.jacoco)](https://plugins.gradle.org/plugin/io.github.gmazzo.gradle.testkit.jacoco)
+  [![Build Status](https://github.com/gmazzo/gradle-testkit-jacoco-plugin/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/gradle-testkit-jacoco-plugin/actions/workflows/build.yaml)
+  [![Coverage](https://codecov.io/gh/gmazzo/gradle-testkit-jacoco-plugin/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/gradle-testkit-jacoco-plugin)
+  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:io.github.gmazzo.gradle.testkit.jacoco+-repo:github.com/gmazzo/gradle-testkit-jacoco-plugin)
+  
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-testkit-jacoco-plugin)](https://github.com/gmazzo/gradle-testkit-jacoco-plugin/graphs/contributors)
+
+  ```kotlin
+  plugins {
+    `java-gradle-plugin`
+    id("io.github.gmazzo.gradle.testkit.jacoco") version "<latest>" 
+  }
+  ```
+  
 - [`gradle-aar2jar-plugin`](https://github.com/gmazzo/gradle-aar2jar-plugin)
 
   A Gradle plugin to allow consuming Android's AAR dependencies as JAR dependencies for JVM projects.
