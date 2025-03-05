@@ -67,7 +67,6 @@
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/graphs/contributors)
 
   ![aggregated-jacoco-report](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/raw/main/README-aggregated-jacoco-report.png)
-
   
 - [`gradle-testkit-jacoco-plugin`](https://github.com/gmazzo/gradle-testkit-jacoco-plugin)
 
@@ -92,6 +91,34 @@
   }
   ```
   
+- [`gradle-multiapi-dev-plugin`](https://github.com/gmazzo/gradle-multiapi-dev-plugin)
+
+  A Gradle plugin allows targeting multiple `gradleApi()`s versions.
+
+  [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-multiapi-dev-plugin)](https://github.com/gmazzo/gradle-multiapi-dev-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-multiapi-dev-plugin)](https://github.com/gmazzo/gradle-multiapi-dev-plugin/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-multiapi-dev-plugin)](https://github.com/gmazzo/gradle-multiapi-dev-plugin/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-multiapi-dev-plugin)](https://github.com/gmazzo/gradle-multiapi-dev-plugin/pulls)
+  ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-multiapi-dev-plugin)
+  [![Gradle Plugin Portal](https://img.shields.io/gradle-plugin-portal/v/io.github.gmazzo.gradle.multiapi)](https://plugins.gradle.org/plugin/io.github.gmazzo.gradle.multiapi)
+  [![Build Status](https://github.com/gmazzo/gradle-multiapi-dev-plugin/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/gradle-multiapi-dev-plugin/actions/workflows/build.yaml)
+  [![Coverage](https://codecov.io/gh/gmazzo/gradle-multiapi-dev-plugin/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/gradle-multiapi-dev-plugin)
+  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:io.github.gmazzo.gradle.multiapi+-repo:github.com/gmazzo/gradle-multiapi-dev-plugin)
+  
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-multiapi-dev-plugin)](https://github.com/gmazzo/gradle-multiapi-dev-plugin/graphs/contributors)
+
+  ```kotlin
+  plugins {
+    `java-gradle-plugin`
+    id("io.github.gmazzo.gradle.multiapi") version "<latest>" 
+  }
+
+  gradlePlugin {
+    apiTargets("7.0", "8.1", "8.13")
+  }
+  ```
+  ![Project Structure](https://github.com/gmazzo/gradle-multiapi-dev-plugin/raw/main/README-structure.png)
+    
 - [`gradle-aar2jar-plugin`](https://github.com/gmazzo/gradle-aar2jar-plugin)
 
   A Gradle plugin to allow consuming Android's AAR dependencies as JAR dependencies for JVM projects.
