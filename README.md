@@ -354,7 +354,7 @@
   [![Issues](https://img.shields.io/github/issues/gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/issues)
   [![PRs](https://img.shields.io/github/issues-pr/gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/pulls)
   [![Latest](https://img.shields.io/docker/image-size/gmazzo/kotlin)](https://hub.docker.com/repository/docker/gmazzo/kotlin/general)
-  [![Build Status](https://github.com/gmazzo/kotlin-container/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/gmazzo/kotlin-container/actions/workflows/ci-cd.yaml)
+  [![Build Status](https://github.com/gmazzo/kotlin-container/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/kotlin-container/actions/workflows/build.yaml)
   [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:gmazzo/kotlin-container%40+-repo:github.com/gmazzo/kotlin-container)
 
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/graphs/contributors)
@@ -373,7 +373,7 @@
   [![Issues](https://img.shields.io/github/issues/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/issues)
   [![PRs](https://img.shields.io/github/issues-pr/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/pulls)
   [![Latest](https://img.shields.io/github/v/release/gmazzo/publish-report-annotations)](https://github.com/gmazzo/publish-report-annotations/releases/latest)
-  [![Build Status](https://github.com/gmazzo/publish-report-annotations/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/gmazzo/publish-report-annotations/actions/workflows/ci-cd.yaml)
+  [![Build Status](https://github.com/gmazzo/publish-report-annotations/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/publish-report-annotations/actions/workflows/build.yaml)
   [![codecov](https://codecov.io/gh/gmazzo/publish-report-annotations/branch/main/graph/badge.svg)](https://codecov.io/gh/gmazzo/publish-report-annotations)
   [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:gmazzo/publish-report-annotations%40+-repo:github.com/gmazzo/publish-report-annotations)
 
