@@ -325,6 +325,34 @@
 
   ![README-failure.png](https://github.com/gmazzo/gradle-module-kind-plugin/raw/main/README-failure.png)
 
+- [`gradle-git-version-plugin`](https://github.com/gmazzo/gradle-git-version-plugin)
+
+  An opinionated Gradle plugin to provide a project version using Git tags.
+
+  [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-git-version-plugin)](https://github.com/gmazzo/gradle-git-version-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-git-version-plugin)](https://github.com/gmazzo/gradle-git-version-plugin/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-git-version-plugin)](https://github.com/gmazzo/gradle-git-version-plugin/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-git-version-plugin)](https://github.com/gmazzo/gradle-git-version-plugin/pulls)
+  ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-git-version-plugin)
+  [![Maven Central](https://img.shields.io/maven-central/v/io.github.gmazzo.gitversion/io.github.gmazzo.gitversion.gradle.plugin)](https://central.sonatype.com/artifact/io.github.gmazzo.gitversion/io.github.gmazzo.gitversion.gradle.plugin)
+  [![Gradle Plugin Portal](https://img.shields.io/gradle-plugin-portal/v/io.github.gmazzo.gitversion)](https://plugins.gradle.org/plugin/io.github.gmazzo.gitversion)
+  [![Build Status](https://github.com/gmazzo/gradle-git-version-plugin/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/gmazzo/gradle-git-version-plugin/actions/workflows/ci-cd.yaml)
+  [![Coverage](https://codecov.io/gh/gmazzo/gradle-git-version-plugin/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/gradle-git-version-plugin)
+  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:io.github.gmazzo.gitversion+-repo:github.com/gmazzo/gradle-git-version-plugin)
+  
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-git-version-plugin)](https://github.com/gmazzo/gradle-git-version-plugin/graphs/contributors)
+
+  ```kotlin
+  plugins {
+    id("io.github.gmazzo.gitversion") version "<latest>"
+
+    gitVersion {
+      tagPrefix = "v" // Optional, default is "v"
+      initialVersion = "0.1.0-SNAPSHOT" // Optional, default is "0.1.0-SNAPSHOT"
+    }
+  }
+  ```
+
 - [`gradle-report-publications-plugin`](https://github.com/gmazzo/gradle-report-publications-plugin)
 
   A Gradle plugin that decorates the build logs with maven coordinates of artifacts published with `publish` or `publishToMavenLocal`
