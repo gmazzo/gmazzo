@@ -372,6 +372,21 @@
 
   ![publications](https://github.com/gmazzo/gradle-report-publications-plugin/raw/main/README-example-output.png)
 
+### Android Apps
+- [`android-weather-tree-live-wallpaper`](https://github.com/gmazzo/android-weather-tree-live-wallpaper)
+
+  A live wallpaper with trees in background landscape, with scenes for local weather
+
+  [![Stars](https://img.shields.io/github/stars/gmazzo/android-weather-tree-live-wallpaper)](https://github.com/gmazzo/android-weather-tree-live-wallpaper/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/android-weather-tree-live-wallpaper)](https://github.com/gmazzo/android-weather-tree-live-wallpaper/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/android-weather-tree-live-wallpaper)](https://github.com/gmazzo/android-weather-tree-live-wallpaper/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/android-weather-tree-live-wallpaper)](https://github.com/gmazzo/android-weather-tree-live-wallpaper/pulls)
+  [![Build Status](https://github.com/gmazzo/android-weather-tree-live-wallpaper/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/android-weather-tree-live-wallpaper/actions/workflows/build.yaml)
+
+  <a href="https://play.google.com/store/apps/details?id=io.github.gmazzo.android.livewallpaper.weather"><img alt="Get it on Google Play" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" width="135" height="40" /></a>
+
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/graphs/contributors)
+
 ### Docker images
 - [`kotlin-container`](https://github.com/gmazzo/kotlin-container)
 
