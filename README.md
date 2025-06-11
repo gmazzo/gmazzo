@@ -382,6 +382,7 @@
   [![Issues](https://img.shields.io/github/issues/gmazzo/android-weather-tree-live-wallpaper)](https://github.com/gmazzo/android-weather-tree-live-wallpaper/issues)
   [![PRs](https://img.shields.io/github/issues-pr/gmazzo/android-weather-tree-live-wallpaper)](https://github.com/gmazzo/android-weather-tree-live-wallpaper/pulls)
   [![Build Status](https://github.com/gmazzo/android-weather-tree-live-wallpaper/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/android-weather-tree-live-wallpaper/actions/workflows/build.yaml)
+  [![Coverage](https://codecov.io/gh/gmazzo/android-weather-tree-live-wallpaper/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/android-weather-tree-live-wallpaper)
 
   <a href="https://play.google.com/store/apps/details?id=io.github.gmazzo.android.livewallpaper.weather"><img alt="Get it on Google Play" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" width="135" height="40" /></a>
 
