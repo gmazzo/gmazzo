@@ -397,7 +397,7 @@
   [![Forks](https://img.shields.io/github/forks/gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/issues)
   [![PRs](https://img.shields.io/github/issues-pr/gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/pulls)
-  [![Latest](https://img.shields.io/docker/image-size/gmazzo/kotlin)](https://hub.docker.com/repository/docker/gmazzo/kotlin/general)
+  [![Latest](https://img.shields.io/docker/image-size/gmazzo/kotlin)](https://hub.docker.com/r/gmazzo/kotlin)
   [![Build Status](https://github.com/gmazzo/kotlin-container/actions/workflows/build.yaml/badge.svg)](https://github.com/gmazzo/kotlin-container/actions/workflows/build.yaml)
   [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:gmazzo/kotlin-container%40+-repo:github.com/gmazzo/kotlin-container)
 
