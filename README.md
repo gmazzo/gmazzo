@@ -372,6 +372,28 @@
 
   ![publications](https://github.com/gmazzo/gradle-report-publications-plugin/raw/main/README-example-output.png)
 
+### Swift Plugins
+- [`swift-codeowners-plugin`](https://github.com/gmazzo/swift-codeowners-plugin)
+
+  A Swift compiler plugin to add CodeOwners attribution to Swift types
+
+  [![Stars](https://img.shields.io/github/stars/gmazzo/swift-codeowners-plugin)](https://github.com/gmazzo/swift-codeowners-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/swift-codeowners-plugin)](https://github.com/gmazzo/swift-codeowners-plugin/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/swift-codeowners-plugin)](https://github.com/gmazzo/swift-codeowners-plugin/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/swift-codeowners-plugin)](https://github.com/gmazzo/swift-codeowners-plugin/pulls)
+  [![Build Status](https://github.com/gmazzo/swift-codeowners-plugin/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/gmazzo/swift-codeowners-plugin/actions/workflows/ci-cd.yaml)
+  [![Coverage](https://codecov.io/gh/gmazzo/swift-codeowners-plugin/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/swift-codeowners-plugin)
+
+  ```swift
+  struct MyType {
+    func printOwner() {
+        print("This type is owned by \(self.codeOwners)")
+    }
+  }
+  ```
+
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/swift-codeowners-plugin)](https://github.com/gmazzo/swift-codeowners-plugin/graphs/contributors)
+
 ### Android Apps
 - [`android-weather-tree-live-wallpaper`](https://github.com/gmazzo/android-weather-tree-live-wallpaper)
 
