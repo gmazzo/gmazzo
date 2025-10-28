@@ -389,7 +389,9 @@
   ```swift
   struct MyType {
     func printOwner() {
-        print("This type is owned by \(self.codeOwners)")
+      print("This type is owned by \(codeOwnersOf(self))") // or
+      print("This type is owned by \(codeOwnersOf(MyType.self))") // or
+      print("This type is owned by \(codeOwnersOf(MyType()))") // or
     }
   }
   ```
