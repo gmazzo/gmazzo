@@ -381,7 +381,7 @@
   [![Forks](https://img.shields.io/github/forks/gmazzo/swift-codeowners-plugin)](https://github.com/gmazzo/swift-codeowners-plugin/forks)
   [![Issues](https://img.shields.io/github/issues/gmazzo/swift-codeowners-plugin)](https://github.com/gmazzo/swift-codeowners-plugin/issues)
   [![PRs](https://img.shields.io/github/issues-pr/gmazzo/swift-codeowners-plugin)](https://github.com/gmazzo/swift-codeowners-plugin/pulls)
-  ![SPM](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgmazzo%2Fswift-codeowners-plugin%2Freleases%2Flatest&query=tag_name&logo=https%3A%2F%2Fswiftpackageregistry.com%2Fandroid-icon-192x192.png&label=SPM&color=%23f05138&link=https%3A%2F%2Fswiftpackageregistry.com%2Fgmazzo%2Fswift-codeowners-plugin)
+  [![SPM](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgmazzo%2Fswift-codeowners-plugin%2Freleases%2Flatest&query=tag_name&logo=https%3A%2F%2Fswiftpackageregistry.com%2Fandroid-icon-192x192.png&label=SPM&color=%23f05138)](https://swiftpackageregistry.com/gmazzo/swift-codeowners-plugin)
   ![GitHub](https://img.shields.io/github/license/gmazzo/swift-codeowners-plugin)
   [![Build Status](https://github.com/gmazzo/swift-codeowners-plugin/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/gmazzo/swift-codeowners-plugin/actions/workflows/ci-cd.yaml)
   [![Coverage](https://codecov.io/gh/gmazzo/swift-codeowners-plugin/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/swift-codeowners-plugin)
