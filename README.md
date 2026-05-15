@@ -71,6 +71,32 @@
 
   ![aggregated-jacoco-report](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/raw/main/README-aggregated-jacoco-report.png)
   
+- [`gradle-build-timeout-plugin`](https://github.com/gmazzo/gradle-build-timeout-plugin)
+
+  A Gradle plugin that sets an overall run timeout for the build.
+
+  [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-build-timeout-plugin)](https://github.com/gmazzo/gradle-build-timeout-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-build-timeout-plugin)](https://github.com/gmazzo/gradle-build-timeout-plugin/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-build-timeout-plugin)](https://github.com/gmazzo/gradle-build-timeout-plugin/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-build-timeout-plugin)](https://github.com/gmazzo/gradle-build-timeout-plugin/pulls)
+  ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-build-timeout-plugin)
+  [![Maven Central](https://img.shields.io/maven-central/v/io.github.gmazzo.build.timeout/io.github.gmazzo.build.timeout.gradle.plugin)](https://central.sonatype.com/artifact/io.github.gmazzo.build.timeout/io.github.gmazzo.build.timeout.gradle.plugin)
+  [![Gradle Plugin Portal](https://img.shields.io/gradle-plugin-portal/v/io.github.gmazzo.build.timeout)](https://plugins.gradle.org/plugin/io.github.gmazzo.build.timeout)
+  [![Build Status](https://github.com/gmazzo/gradle-build-timeout-plugin/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/gmazzo/gradle-build-timeout-plugin/actions/workflows/ci-cd.yaml)
+  [![Coverage](https://codecov.io/gh/gmazzo/gradle-build-timeout-plugin/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/gradle-build-timeout-plugin)
+  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:io.github.gmazzo.build.timeout+-repo:github.com/gmazzo/gradle-build-timeout-plugin)
+  
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-build-timeout-plugin)](https://github.com/gmazzo/gradle-build-timeout-plugin/graphs/contributors)
+
+  ```kotlin
+  plugins {
+    id("io.github.gmazzo.build.timeout") version "<latest>" 
+  }
+  ```
+  ```bash
+  ./gradlew build -PbuildTimeout=10m
+  ```
+
 - [`gradle-testkit-jacoco-plugin`](https://github.com/gmazzo/gradle-testkit-jacoco-plugin)
 
   A Gradle plugin that enables JaCoCo coverage collection for Gradle TestKit's GradleRunner tests.
