@@ -52,24 +52,24 @@
     buildConfigField("APP_VERSION", provider { "${project.version}" })
   ```
   
-- [`gradle-android-test-aggregation-plugin`](https://github.com/gmazzo/gradle-android-test-aggregation-plugin)
+- [`gradle-tests-aggregation-plugin`](https://github.com/gmazzo/gradle-tests-aggregation-plugin)
 
   A couple Gradle plugins to make Android modules to work with [JaCoCo Report Aggregation Plugin](https://docs.gradle.org/current/userguide/jacoco_report_aggregation_plugin.html) and [Test Report Aggregation Plugin](https://docs.gradle.org/current/userguide/test_report_aggregation_plugin.html)
 
-  [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/stargazers)
-  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/forks)
-  [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/issues)
-  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/pulls)
-  ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-android-test-aggregation-plugin)
+  [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-tests-aggregation-plugin)](https://github.com/gmazzo/gradle-tests-aggregation-plugin/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-tests-aggregation-plugin)](https://github.com/gmazzo/gradle-tests-aggregation-plugin/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/gradle-tests-aggregation-plugin)](https://github.com/gmazzo/gradle-tests-aggregation-plugin/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/gradle-tests-aggregation-plugin)](https://github.com/gmazzo/gradle-tests-aggregation-plugin/pulls)
+  ![GitHub](https://img.shields.io/github/license/gmazzo/gradle-tests-aggregation-plugin)
   [![Maven Central](https://img.shields.io/maven-central/v/io.github.gmazzo.test.aggregation.coverage/io.github.gmazzo.test.aggregation.coverage.gradle.plugin)](https://central.sonatype.com/artifact/io.github.gmazzo.test.aggregation.coverage/io.github.gmazzo.test.aggregation.coverage.gradle.plugin)
   [![Gradle Plugin Portal](https://img.shields.io/gradle-plugin-portal/v/io.github.gmazzo.test.aggregation.coverage)](https://plugins.gradle.org/plugin/io.github.gmazzo.test.aggregation.coverage)
-  [![Build Status](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/actions/workflows/ci-cd.yaml)
-  [![Coverage](https://codecov.io/gh/gmazzo/gradle-android-test-aggregation-plugin/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/gradle-android-test-aggregation-plugin)
-  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:io.github.gmazzo.test.aggregation+-repo:github.com/gmazzo/gradle-android-test-aggregation-plugin)
+  [![Build Status](https://github.com/gmazzo/gradle-tests-aggregation-plugin/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/gmazzo/gradle-tests-aggregation-plugin/actions/workflows/ci-cd.yaml)
+  [![Coverage](https://codecov.io/gh/gmazzo/gradle-tests-aggregation-plugin/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/gradle-tests-aggregation-plugin)
+  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:io.github.gmazzo.test.aggregation+-repo:github.com/gmazzo/gradle-tests-aggregation-plugin)
   
-  [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-android-test-aggregation-plugin)](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/graphs/contributors)
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-tests-aggregation-plugin)](https://github.com/gmazzo/gradle-tests-aggregation-plugin/graphs/contributors)
 
-  ![aggregated-jacoco-report](https://github.com/gmazzo/gradle-android-test-aggregation-plugin/raw/main/README-aggregated-jacoco-report.png)
+  ![aggregated-jacoco-report](https://github.com/gmazzo/gradle-tests-aggregation-plugin/raw/main/README-aggregated-jacoco-report.png)
   
 - [`gradle-build-timeout-plugin`](https://github.com/gmazzo/gradle-build-timeout-plugin)
 
