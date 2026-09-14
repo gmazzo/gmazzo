@@ -54,7 +54,7 @@
   
 - [`gradle-tests-aggregation-plugin`](https://github.com/gmazzo/gradle-tests-aggregation-plugin)
 
-  A couple Gradle plugins to make Android modules to work with [JaCoCo Report Aggregation Plugin](https://docs.gradle.org/current/userguide/jacoco_report_aggregation_plugin.html) and [Test Report Aggregation Plugin](https://docs.gradle.org/current/userguide/test_report_aggregation_plugin.html)
+  A Gradle plugin to simplify test aggregations across multiple modules and its variants (e.g. JVM test suites, Android Variants or Kotlin Multiplatform's Targets) in Android projects.
 
   [![Stars](https://img.shields.io/github/stars/gmazzo/gradle-tests-aggregation-plugin)](https://github.com/gmazzo/gradle-tests-aggregation-plugin/stargazers)
   [![Forks](https://img.shields.io/github/forks/gmazzo/gradle-tests-aggregation-plugin)](https://github.com/gmazzo/gradle-tests-aggregation-plugin/forks)
