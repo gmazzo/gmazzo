@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Guillermo Mazzola&#39;s GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 1211, Total Commits  (last year) : 528, Total PRs: 1032, Total Issues: 40, Contributed to (last year): 9</desc>
+        <desc id="descId">Total Stars Earned: 1212, Total Commits  (last year) : 528, Total PRs: 1032, Total Issues: 40, Contributed to (last year): 9</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 22.173208252591852;
+        stroke-dashoffset: 22.1705760811806;
       }
     }
   
