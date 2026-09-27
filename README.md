@@ -70,6 +70,7 @@
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/gradle-tests-aggregation-plugin)](https://github.com/gmazzo/gradle-tests-aggregation-plugin/graphs/contributors)
 
   ![aggregated-jacoco-report](https://github.com/gmazzo/gradle-tests-aggregation-plugin/raw/main/README-aggregated-jacoco-report.png)
+  ![aggregated-results-report](https://github.com/gmazzo/gradle-tests-aggregation-plugin/raw/main/README-aggregated-test-report.png)
   
 - [`gradle-build-timeout-plugin`](https://github.com/gmazzo/gradle-build-timeout-plugin)
 
