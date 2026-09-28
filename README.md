@@ -437,7 +437,7 @@
   [![Build Status](https://github.com/gmazzo/android-weather-tree-live-wallpaper/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/gmazzo/android-weather-tree-live-wallpaper/actions/workflows/ci-cd.yaml)
   [![Coverage](https://codecov.io/gh/gmazzo/android-weather-tree-live-wallpaper/branch/main/graph/badge.svg?token=D5cDiPWvcS)](https://codecov.io/gh/gmazzo/android-weather-tree-live-wallpaper)
 
-  <a href="https://play.google.com/store/apps/details?id=io.github.gmazzo.android.livewallpaper.weather"><img alt="Get it on Google Play" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" width="135" height="40" /></a>
+  <a href="https://play.google.com/store/apps/details?id=io.github.gmazzo.android.livewallpaper.weather"><img alt="Get it on Google Play" src="https://appure.io/badges/playstore/en.svg" height="60" /></a>
 
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/kotlin-container)](https://github.com/gmazzo/kotlin-container/graphs/contributors)
 
