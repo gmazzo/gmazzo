@@ -3,31 +3,6 @@
 
 ## Open Source projects
 
-### JVM libraries
-- [`okhttp-client-mock`](https://github.com/gmazzo/okhttp-client-mock)
-
-  A simple `OKHttp` client mock, using a programmable request interceptor
-
-  [![Stars](https://img.shields.io/github/stars/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/stargazers)
-  [![Forks](https://img.shields.io/github/forks/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/forks)
-  [![Issues](https://img.shields.io/github/issues/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/issues)
-  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/pulls)
-  ![GitHub](https://img.shields.io/github/license/gmazzo/okhttp-client-mock)
-  [![Maven Central](https://img.shields.io/maven-central/v/com.github.gmazzo.okhttp.mock/mock-client)](https://central.sonatype.com/artifact/com.github.gmazzo.okhttp.mock/mock-client)
-  [![Build Status](https://github.com/gmazzo/okhttp-client-mock/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/gmazzo/okhttp-client-mock/actions/workflows/ci-cd.yaml)
-  [![codecov](https://codecov.io/gh/gmazzo/okhttp-client-mock/branch/master/graph/badge.svg)](https://codecov.io/gh/gmazzo/okhttp-client-mock)
-  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:okhttp-mock\b+content:com.github.gmazzo.okhttp+-repo:github.com/gmazzo/okhttp-client-mock&patternType=regexp)
-
-  [![Contributors](https://contrib.rocks/image?repo=gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/graphs/contributors)
-
-  ```kotlin
-  val interceptor = MockInterceptor()
-  
-  interceptor.rule(url eq "https://testserver/api/json") {
-    respond("{succeed:true}", MEDIATYPE_JSON)
-  }
-  ```
-
 ### Gradle plugins
 - [`gradle-buildconfig-plugin`](https://github.com/gmazzo/gradle-buildconfig-plugin)
 
@@ -424,6 +399,31 @@
   ```
 
   [![Contributors](https://contrib.rocks/image?repo=gmazzo/swift-codeowners-plugin)](https://github.com/gmazzo/swift-codeowners-plugin/graphs/contributors)
+
+### JVM libraries
+- [`okhttp-client-mock`](https://github.com/gmazzo/okhttp-client-mock)
+
+  A simple `OKHttp` client mock, using a programmable request interceptor
+
+  [![Stars](https://img.shields.io/github/stars/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/stargazers)
+  [![Forks](https://img.shields.io/github/forks/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/forks)
+  [![Issues](https://img.shields.io/github/issues/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/issues)
+  [![PRs](https://img.shields.io/github/issues-pr/gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/pulls)
+  ![GitHub](https://img.shields.io/github/license/gmazzo/okhttp-client-mock)
+  [![Maven Central](https://img.shields.io/maven-central/v/com.github.gmazzo.okhttp.mock/mock-client)](https://central.sonatype.com/artifact/com.github.gmazzo.okhttp.mock/mock-client)
+  [![Build Status](https://github.com/gmazzo/okhttp-client-mock/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/gmazzo/okhttp-client-mock/actions/workflows/ci-cd.yaml)
+  [![codecov](https://codecov.io/gh/gmazzo/okhttp-client-mock/branch/master/graph/badge.svg)](https://codecov.io/gh/gmazzo/okhttp-client-mock)
+  [![Users](https://img.shields.io/badge/users_by-Sourcegraph-purple)](https://sourcegraph.com/search?q=content:okhttp-mock\b+content:com.github.gmazzo.okhttp+-repo:github.com/gmazzo/okhttp-client-mock&patternType=regexp)
+
+  [![Contributors](https://contrib.rocks/image?repo=gmazzo/okhttp-client-mock)](https://github.com/gmazzo/okhttp-client-mock/graphs/contributors)
+
+  ```kotlin
+  val interceptor = MockInterceptor()
+  
+  interceptor.rule(url eq "https://testserver/api/json") {
+    respond("{succeed:true}", MEDIATYPE_JSON)
+  }
+  ```
 
 ### Android Apps
 - [`android-weather-tree-live-wallpaper`](https://github.com/gmazzo/android-weather-tree-live-wallpaper)
